@@ -1,6 +1,6 @@
 import pandas as pd
 
-# Datos
+# Datos de sueldo mensual y gastos
 sueldo_mensual = 1_423_500
 ingreso_quincenal = sueldo_mensual / 2
 gasto_mercado = 250_000
@@ -33,4 +33,4 @@ for _, row in df_quincenal.iterrows():
         signo = "+" if monto > 0 else "-"
         print(f"{concepto}: {signo}${abs(monto):,.2f}")
 
-print("\n💡 El 'Total restante quincenal' es el dinero que te queda después de restar los gastos principales de tu ingreso quincenal.\n")
+print("\n El 'Total restante quincenal' es el dinero que te queda después de restar los gastos principales de tu ingreso quincenal.\n")

@@ -64,7 +64,7 @@ class ValidateSudoku:
     def chequeo_subcuadros(self):
         #funcion mayor
         #tenemos 9 subcuadros = chequear de 3 en 3
-        # de mis primeras 3 filas -> subcuadros del 0 al 3, 3 al 6, 6 al 9
+        # de mis primeras 3 filas -> subcuadros del 0 al 3, 3 al 6, 6 al 9,
         self.chequeo_3_subcuadros(0,3)
         self.chequeo_3_subcuadros(3,6)
         self.chequeo_3_subcuadros(6,9)

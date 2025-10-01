@@ -16,3 +16,4 @@ conexion = mysql.connector.connect(
     port=int(os.getenv("DB_PORT"))
 )
 print("Conexión exitosa a la base de datos")
+# Recordar:Instalar variables de entorno

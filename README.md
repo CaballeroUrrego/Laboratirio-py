@@ -2,4 +2,5 @@
 # Comentario de la cuenta colaboradora
 # Probando git
 
-![Vista del proyecto](docs/captura.png)
+![Vista del proyecto](doc/captura.png)
+
